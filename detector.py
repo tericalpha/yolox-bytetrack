@@ -118,7 +118,7 @@ class Args():
         self.mot20 = False
         self.tsize = None
         self.name = 'yolox-s'
-        self.ckpt = 'epoch_34_ckpt.pth'
+        self.ckpt = '../pretrained/yolox_s.pth'
         self.exp_file = None
         
 def is_crossing_line(tracked_object, line_point1, line_point2):
